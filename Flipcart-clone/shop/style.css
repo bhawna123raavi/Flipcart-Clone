@@ -1,0 +1,164 @@
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+body{
+    background-color: grey;
+}
+#header{
+    background-color:white ;
+    padding-top: 2px;
+    position: fixed;
+    width: 100%;
+    top: 1%;
+    z-index: 2;
+}
+.container{
+    width: 100%;
+    margin: 0px 0px;
+
+}                       
+.row::after{
+   contain: "";
+  display: block;
+  clear: both;
+}
+.right{
+    float: right;
+
+}
+.left{
+    float: left;
+}
+.col-1{
+    width: 60%;
+}
+.col-2{
+    width: 38%;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+.search{
+    width: 75%;
+    margin-left: 2%;
+}
+.search input[type="text"]{
+   width: 100%;
+   background-color:rgb(218, 218, 242);
+   border-color: transparent;
+   height: 35px;
+   background-repeat: no-repeat;
+   background-position: left center;
+   font-size: 1em;
+   border-radius: 5px;
+   margin-top: 15px;
+   background-position-x: 1%;
+}
+img{
+    width: 100%;
+
+}
+ul{
+    list-style: none;
+}
+.col-2 > ul > li{
+  display: inline;
+  width: 18%;
+  font-weight: 400;
+  font: 1em sans-serif;
+  position: relative;
+}
+.col-2 >ul >li >a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+#section-1{
+     background-color: antiquewhite;
+     padding: 5%;
+     margin-top:  5% ;
+}
+#section-1 .product{
+    display: inline-block;
+    width: 10%;
+     text-align: center;
+     margin-left: 10px;
+}
+#section-1 .product img{
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+}
+ #section-1 h4{
+    margin-top: 10px ;
+    color: rgb(11, 11, 11);
+    font-weight: 500;
+    font-family: 1em sans-serif;
+ }
+ a{
+    text-decoration: none;
+
+ }
+ #banner{
+  margin-top: 10px;
+ }
+ #maha-sale .container{
+    margin: 0px;
+
+ }
+ #maha-sale .row .prod-img{
+     display: inline-block;
+     width: 32%;
+     margin-left: 3px;
+ }
+ #maha-sale .prod-img img{
+    height: 300px;
+    width: 100%;
+ }
+ #section-2{
+    background-color: azure;
+    padding: 1% 0;
+    margin-bottom: 1%;
+ }
+ #section-2 h2{
+    margin-left: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.5em;
+ }
+ #sectino-2 h4{
+    margin-top: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:  500px; ;
+ }
+ #section-2 .product{
+    background-color: #ffff;
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    border-radius: 2%;
+    padding-bottom: 10px;
+    margin: 0 1.5%;
+    position: relative; 
+}
+ #section-2 .product img{
+    height: 180px;
+    width: 150px;
+    margin-top: 10px;
+ }
+ h3{
+    padding-top: 5px;
+    font-weight: 300;
+    font-size: 0.9em;
+ }
+
